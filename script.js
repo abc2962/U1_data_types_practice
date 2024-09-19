@@ -6,6 +6,7 @@
  */
 let myFavoriteSong = "hello"
 console.log(myFavoriteSong)
+console.log(`My favorite song is ${myFavoriteSong}`)
 
 /*
  * Prompt 2:
@@ -120,6 +121,8 @@ karolin.splice(1,1, 17)
 console.log(karolin)
 cathleen.splice(2,1, "Gotham City")
 console.log(cathleen)
+kristyn.splice(2,1, `Oakland`)
+console.log(kristyn)
 
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
